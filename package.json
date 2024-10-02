@@ -1,0 +1,24 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon ./src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "keywords": [],
+  "devDependencies": {
+    "nodemon": "^3.1.6"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.0",
+    "mysql": "^2.18.1",
+    "mysql2": "^3.11.3",
+    "sequelize": "^6.37.3"
+  },
+  "description": ""
+}
